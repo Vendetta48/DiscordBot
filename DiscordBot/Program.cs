@@ -65,7 +65,7 @@ namespace DiscordBot
         {
             await InitCommands();
 
-            await _client.LoginAsync(TokenType.Bot, "MzI5ODIzNDU5NDY1MjMyMzg1.DQjWkQ.v3BWObi_d4Qy5Nvn1NgSShAFSls");
+            await _client.LoginAsync(TokenType.Bot, "realTokenHidden");
             await _client.StartAsync();
 
             await Task.Delay(Timeout.Infinite);
